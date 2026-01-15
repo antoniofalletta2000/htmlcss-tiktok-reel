@@ -36,6 +36,7 @@ video {
 	top: 0;
 	left: 0;
 	right: 0;
+	padding-top: 10px;
 	
 	.search, .video {
 		background-color:transparent;
@@ -61,6 +62,13 @@ video {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+}
+.redpoint{
+	position: absolute;
+	color: rgba(255, 0, 0, 0.486);
+	font-size: 6px;
+	right: 14rem;
+	top: 10px;
 }
 
 /* Footer */
@@ -119,6 +127,14 @@ footer {
 	}
 }
 
+.number{
+	position: absolute;
+	border: solid transparent;
+	background-color: red;
+	border-radius: 7px;
+	padding: 0px 4px;
+	translate: 105px 25px;
+}
 /* Sidebar */
 .sidebar {
 	display: flex;
