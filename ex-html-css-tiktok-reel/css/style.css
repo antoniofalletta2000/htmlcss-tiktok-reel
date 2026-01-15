@@ -138,7 +138,10 @@ footer {
 	p {
 		font-size: 10px;
 	}
-	
+	.boolean-logo{
+		border: solid ;
+		border-radius: 2rem;
+	}
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
@@ -146,28 +149,8 @@ footer {
 
 .plus-icon {
 	position: absolute;
-	translate: 90% 120%;
+	translate: 60% 120%;
 	color: red;
 }
 
-/* ---------------------
-Regole per evidenziare i blocchi 
-da rimuovere una volta concluso
---------------------- */
-.debug footer {
-	min-height: 100px;
-	border: 2px dashed #fff;
-}
 
-.debug .sidebar {
-	min-width: 80px;
-	min-height: 450px;
-	border: 2px dashed #ff0;
-}
-
-.debug .reel-header {
-	min-height: 50px;
-	border: 2px dashed #fff;
-}
-
-/* --------------------- */
