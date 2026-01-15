@@ -7,6 +7,8 @@
 body {
 	margin: 0 auto;
 	font-family: 'TikTok Sans', sans-serif;
+	width: 512px;
+	position: relative;
 }
 
 video {
@@ -70,13 +72,33 @@ footer {
 
 /* Sidebar */
 .sidebar {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
 	padding: 0 16px;
 	position: absolute;
 	right: 0;
 	top: 40%;
+	.sidebar-btn {
+		background-color: transparent;
+		color: white;
+		border: none;
+		font-size: 20px;
+	}
+	
+	p {
+		font-size: 10px;
+	}
+	
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+}
+
+.plus-icon {
+	position: absolute;
+	translate: 90% 120%;
+	color: red;
 }
 
 /* ---------------------
