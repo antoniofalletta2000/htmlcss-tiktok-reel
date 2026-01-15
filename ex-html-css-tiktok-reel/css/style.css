@@ -9,6 +9,7 @@ body {
 	font-family: 'TikTok Sans', sans-serif;
 	width: 512px;
 	position: relative;
+	font-family: "TikTok Sans", sans-serif;
 }
 
 video {
@@ -65,16 +66,59 @@ footer {
 	right: 0;
 	bottom: 0;
 	color: #fff;
-
+	font-size: 12px;
+	
+	
+ a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+ }
+ p {
+	padding-top: 8px;
+	padding-bottom: 6px;
+ }
+ button {
+	font-size: 10px;
+	background-color: transparent;
+	color: white;
+	border: none;
+	font-weight: bold;
+ }
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+}
+.bottom-banner{
+	background-color: black;
+	color: white;
+	padding-bottom: 30px;
+	display: flex;
+	justify-content: center ;
+	justify-content: space-around;
+
+	.btn-b{
+		font-size: 20px;
+		padding-top: 30px;
+	}
+	span{
+		font-size: 8px;
+	}
+	.bi {
+		border: none;
+		border-radius: px;
+	}
+	.bi-plus-square-fill{
+		border-left: solid turquoise ;
+		border-right: rgb(235, 8, 118) solid;
+		
+	}
 }
 
 /* Sidebar */
 .sidebar {
 	display: flex;
 	flex-direction: column;
-	gap: 25px;
+	gap: 40px;
 	padding: 0 16px;
 	position: absolute;
 	right: 0;
