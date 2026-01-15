@@ -32,7 +32,7 @@ video {
 	position: absolute;
 	align-items: center;
 	justify-content: center;
-	justify-content: space-between;
+	justify-content: space-around;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -41,9 +41,10 @@ video {
 		background-color:transparent;
 		color: white;
 		border: none;
+		font-size: 16px;
 	}
 
-	.explore, .followed, .for_you {
+	.explore, .followed {
 		background-color:transparent;
 		color: rgba(255, 255, 255, 0.667);
 		border: none;
@@ -51,7 +52,11 @@ video {
 	}
 
 	.for_you {
+		color: white;
+		border: none;
 		border-bottom: solid white ;
+		padding: 5px;
+		background-color:transparent;
 	}
 
 	/* Inserisci qui sotto 
